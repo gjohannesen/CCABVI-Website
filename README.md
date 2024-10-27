@@ -11,12 +11,12 @@ graph TD
     
     A --> C(Donations):::section
     C --> C1[PayPal Integration]:::sub
-    C --> C2[Workflow Test]:::sub
+    C --> C2[Test]:::sub
     
     A --> D(Hosting):::section
     D --> D1[Evaluate Options]:::sub
     D --> D2[Security & Support]:::sub
-    D --> D3[Load Speed]:::sub
+    D --> D3[Price Evaluation]:::sub
     
     A --> E(Documentation):::section
     E --> E1[User Guide]:::sub
