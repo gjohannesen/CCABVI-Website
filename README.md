@@ -1,1 +1,24 @@
 # CCABVI-Website
+### Project Action Items
+
+```mermaid
+graph TD
+    A[CCABVI Website Overhaul] --> B(Ensure Accessibility)
+    A --> C(Enable Donations via PayPal)
+    A --> D(Optimize Hosting)
+    A --> E(Provide Documentation)
+
+    B --> B1(Tab Navigation)
+    B --> B2(Contrast Improvements)
+    B --> B3(Font Size Adjustments)
+
+    C --> C1(PayPal Integration)
+    C --> C2(Test Donation Workflow)
+
+    D --> D1(Evaluate Hosting Options)
+    D --> D2(Ensure 24/7 Support and Security)
+    D --> D3(Optimize for Fast Load Times)
+
+    E --> E1(Create User Guide)
+    E --> E2(Add In-Code Comments)
+    E --> E3(Conduct Training Session)
