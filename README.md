@@ -2,23 +2,27 @@
 ### Project Action Items
 ```mermaid
 graph TD
-    A[CCABVI Website Overhaul]
+    A[CCABVI Website Overhaul]:::main
     
-    A --> B(Accessibility)
-    B --> B1(Tab Navigation)
-    B --> B2(Contrast)
-    B --> B3(Font Size)
+    A --> B(Accessibility):::section
+    B --> B1[Tab Navigation]:::sub
+    B --> B2[Contrast]:::sub
+    B --> B3[Font Size]:::sub
     
-    A --> C(Donations via PayPal)
-    C --> C1(Integration)
-    C --> C2(Workflow Test)
+    A --> C(Donations):::section
+    C --> C1[PayPal Integration]:::sub
+    C --> C2[Workflow Test]:::sub
     
-    A --> D(Hosting Optimization)
-    D --> D1(Evaluate Options)
-    D --> D2(Security & Support)
-    D --> D3(Load Speed)
+    A --> D(Hosting):::section
+    D --> D1[Evaluate Options]:::sub
+    D --> D2[Security & Support]:::sub
+    D --> D3[Load Speed]:::sub
     
-    A --> E(Documentation)
-    E --> E1(User Guide)
-    E --> E2(In-Code Comments)
-    E --> E3(Training)
+    A --> E(Documentation):::section
+    E --> E1[User Guide]:::sub
+    E --> E2[In-Code Comments]:::sub
+    E --> E3[Training]:::sub
+
+    classDef main fill:#4C9F70,stroke:#333,stroke-width:2px;
+    classDef section fill:#6ABF85,stroke:#333,stroke-width:1px;
+    classDef sub fill:#A9D4AB,stroke:#333,stroke-width:1px;
