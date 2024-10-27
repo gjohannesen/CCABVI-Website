@@ -23,6 +23,7 @@ graph TD
     E --> E2[In-Code Comments]:::sub
     E --> E3[Training]:::sub
 
-    classDef main fill:#4C9F70,stroke:#333,stroke-width:2px;
-    classDef section fill:#6ABF85,stroke:#333,stroke-width:1px;
-    classDef sub fill:#A9D4AB,stroke:#333,stroke-width:1px;
+    classDef main fill:#0044CC,stroke:#333,stroke-width:2px,color:#FFFFFF;
+    classDef section fill:#007BFF,stroke:#333,stroke-width:1px,color:#FFFFFF;
+    classDef sub fill:#66B2FF,stroke:#333,stroke-width:1px,color:#FFFFFF;
+
